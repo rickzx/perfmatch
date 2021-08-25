@@ -1,0 +1,51 @@
+.matchBlock {
+  display: flex;
+  margin: 39px auto;
+  max-width: 1027px;
+  justify-content: center;
+  .profilePic {
+    img {
+      width: 253px;
+      height: 253px;
+      border-radius: 6px;
+      margin-right: 44px;
+    }
+  }
+  .profileInfo {
+    background: #ffffff;
+    border-radius: 6px;
+    height: 179px;
+    padding: 37px 41px;
+    .profileMeta {
+      display: flex;
+      span {
+        margin-right: 70px;
+        h3 {
+          margin: 0;
+          font-family: Heebo-Regular_ExtraBold;
+          font-size: 14px;
+          line-height: 25px;
+          color: #8f8f8f;
+          letter-spacing: 1.79px;
+          font-weight: 800;
+        }
+        p {
+          margin: 0;
+          font-family: Heebo-Regular_Black;
+          font-size: 36px;
+          line-height: 53px;
+          color: #2d2d2d;
+          text-align: center;
+          font-weight: 900;
+        }
+      }
+    }
+    .profileDescrip {
+      font-size: 21px;
+      color: #8f8f8f;
+      line-height: 30px;
+      font-weight: 200;
+      margin: 9px 0 0;
+    }
+  }
+}

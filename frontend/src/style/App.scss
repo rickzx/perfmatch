@@ -1,0 +1,121 @@
+h2 {
+  font-family: Heebo-Regular_Black;
+  font-size: 60px;
+  color: #2d2d2d;
+  font-weight: 900;
+}
+p,
+a {
+  font-family: GroteskLight;
+  font-size: 24px;
+  color: #2d2d2d;
+}
+.Find {
+  height: 100vh;
+  margin-top: -82px;
+  width: 100%;
+  display: flex;
+  div {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: -1;
+    h2 {
+      margin-bottom: 19px;
+      color: #fafafa;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    p.description {
+      margin: 0 112px;
+      color: #ffffff;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+      font-weight: 200;
+      margin-bottom: 87px;
+    }
+    a.findButton {
+      background: #f1f1f1;
+      border-radius: 8px;
+      font-family: GroteskLight;
+      font-size: 21px;
+      padding: 21px 13.5px;
+      letter-spacing: 1.5px;
+      text-align: center;
+      font-weight: 200;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+      -webkit-font-smoothing: antialiased;
+    }
+  }
+}
+.findEmployer {
+  background: linear-gradient(
+      129deg,
+      rgba(83, 27, 1, 0.18) 12%,
+      rgba(178, 113, 75, 0.33) 83%,
+      rgba(179, 114, 76, 0.33) 83%
+    ),
+    url("https://cdn.jsdelivr.net/gh/liangchuxin/perfmatch/images/maid-bg.png");
+}
+.findEmployee {
+  background: linear-gradient(
+      229deg,
+      rgba(116, 203, 249, 0.35) 9%,
+      rgba(26, 67, 177, 0.31) 78%
+    ),
+    url("https://cdn.jsdelivr.net/gh/liangchuxin/perfmatch/images/mum-bg.png")
+      bottom;
+}
+
+.Feed {
+  background: #f9f7f7;
+  padding: 81px 139px;
+  .bar:before {
+    content: "";
+    position: relative;
+    right: 15px;
+    border: 16px #ffc094 solid;
+    border-width: 0 0 0 16px;
+  }
+  h2 {
+    font-size: 45px;
+  }
+  .feedTab {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 104px;
+    h2 {
+      display: inline-block;
+      color: #c5c4c4;
+      margin: 0;
+    }
+  }
+  a {
+    width: 298px;
+    height: 79px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+  }
+  .active {
+    background: #ffffff;
+    box-shadow: 0 10px 50px 0 rgba(148, 35, 0, 0.1);
+    border-radius: 6px;
+    h2 {
+      background: -webkit-linear-gradient(0deg, #e55344, #f9a966);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+  .logReg {
+    font-family: URWGrotesk-Regular3;
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    background-image: linear-gradient(90deg, #f9a966 0%, #e55344 100%);
+    border-radius: 6px;
+    margin: 78px auto;
+  }
+}
