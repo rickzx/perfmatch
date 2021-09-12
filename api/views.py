@@ -40,7 +40,7 @@ class CreateEmployerView(APIView):
             self.request.session.create()
         
         serializer = self.serializer_class(data=request.data)
-        if serializer.is_valid():
+        if serializer.is_valid(raise_exception=True):
             employer = Employer(name=serializer.data.get('name'), 
                 age=serializer.data.get('age'),
                 profile_photo=serializer.data.get('profile_photo'), 
